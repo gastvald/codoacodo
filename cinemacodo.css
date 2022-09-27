@@ -1,0 +1,57 @@
+/*primero en el móvil (mobile first)*/
+
+nav {
+    padding: 1em;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #333;
+  }
+  
+  nav li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  
+  nav li a:hover {
+    background: tomato;
+    color: white;
+  }
+
+  p {
+    color: whitesmoke;
+    font-family: 'Alegreya', serif;
+  }
+  
+  
+  /* @media-query */
+  
+  @media screen and (min-width: 480px) {
+    nav ul {
+      display: flex;
+      justify-content:flex-end;
+    }
+  }
+
+  h1 {
+    color: blue;
+    display: flex;
+    justify-content: center ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html { 
+    background: url(./imagenes/cine2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
